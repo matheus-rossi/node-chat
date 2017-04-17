@@ -10,17 +10,7 @@
 <body>
     <p>Welcome to Chat App</p>
     <script src="/socket.io/socket.io.js"></script>
-    <script>
-        const socket = io();
-
-        socket.on("connect", () => {
-            console.log("Connected to Server");
-        });
-
-        socket.on("disconnect", () => {
-            console.log("Disconnected from server");
-        });
-    </script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
