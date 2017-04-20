@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-nr">
+<html lang="pt-br">
 
 <head>
     <title>Node Chat</title>
@@ -9,7 +9,16 @@
 
 <body>
     <p>Welcome to Chat App</p>
+
+    <ol id="messages"></ol>
+
+    <form id="message-form">
+        <input name="message" type="text" placeholder="Message" />
+        <button type="">Send</button>
+    </form>
+
     <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/jquery.js"></script>
     <script src="/js/index.js"></script>
 </body>
 
